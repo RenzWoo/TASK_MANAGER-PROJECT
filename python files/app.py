@@ -12,7 +12,6 @@ class App(tk.Tk):
         self.sidebar = Sidebar(self, self.task_manager, self.main)
         
         self.main.update_task_views()
-        self.iconbitmap("G:/School Stuff/2nd year/RATUNIL OOP/Final PIT/lebanana.ico") 
         
 if __name__ == "__main__":
     app = App()
